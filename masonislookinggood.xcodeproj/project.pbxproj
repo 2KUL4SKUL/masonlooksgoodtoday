@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF23AE5A25B8954E0091B798 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23AE5925B8954E0091B798 /* Tests_iOS.swift */; };
+		AF23AE6525B8954E0091B798 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23AE6425B8954E0091B798 /* Tests_macOS.swift */; };
+		AF23AE6725B8954E0091B798 /* masonislookinggoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23AE3E25B8954D0091B798 /* masonislookinggoodApp.swift */; };
+		AF23AE6825B8954E0091B798 /* masonislookinggoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23AE3E25B8954D0091B798 /* masonislookinggoodApp.swift */; };
+		AF23AE6925B8954E0091B798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23AE3F25B8954D0091B798 /* ContentView.swift */; };
+		AF23AE6A25B8954E0091B798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23AE3F25B8954D0091B798 /* ContentView.swift */; };
+		AF23AE6B25B8954E0091B798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF23AE4025B8954E0091B798 /* Assets.xcassets */; };
+		AF23AE6C25B8954E0091B798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF23AE4025B8954E0091B798 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF23AE5625B8954E0091B798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF23AE3925B8954D0091B798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF23AE4425B8954E0091B798;
+			remoteInfo = "masonislookinggood (iOS)";
+		};
+		AF23AE6125B8954E0091B798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF23AE3925B8954D0091B798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF23AE4C25B8954E0091B798;
+			remoteInfo = "masonislookinggood (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF23AE3E25B8954D0091B798 /* masonislookinggoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masonislookinggoodApp.swift; sourceTree = "<group>"; };
+		AF23AE3F25B8954D0091B798 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF23AE4025B8954E0091B798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF23AE4525B8954E0091B798 /* masonislookinggood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = masonislookinggood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23AE4825B8954E0091B798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF23AE4D25B8954E0091B798 /* masonislookinggood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = masonislookinggood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23AE4F25B8954E0091B798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF23AE5025B8954E0091B798 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AF23AE5525B8954E0091B798 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23AE5925B8954E0091B798 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AF23AE5B25B8954E0091B798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF23AE6025B8954E0091B798 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23AE6425B8954E0091B798 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AF23AE6625B8954E0091B798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF23AE4225B8954E0091B798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23AE4A25B8954E0091B798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23AE5225B8954E0091B798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23AE5D25B8954E0091B798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF23AE3825B8954D0091B798 = {
+			isa = PBXGroup;
+			children = (
+				AF23AE3D25B8954D0091B798 /* Shared */,
+				AF23AE4725B8954E0091B798 /* iOS */,
+				AF23AE4E25B8954E0091B798 /* macOS */,
+				AF23AE5825B8954E0091B798 /* Tests iOS */,
+				AF23AE6325B8954E0091B798 /* Tests macOS */,
+				AF23AE4625B8954E0091B798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF23AE3D25B8954D0091B798 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AF23AE3E25B8954D0091B798 /* masonislookinggoodApp.swift */,
+				AF23AE3F25B8954D0091B798 /* ContentView.swift */,
+				AF23AE4025B8954E0091B798 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AF23AE4625B8954E0091B798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF23AE4525B8954E0091B798 /* masonislookinggood.app */,
+				AF23AE4D25B8954E0091B798 /* masonislookinggood.app */,
+				AF23AE5525B8954E0091B798 /* Tests iOS.xctest */,
+				AF23AE6025B8954E0091B798 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF23AE4725B8954E0091B798 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF23AE4825B8954E0091B798 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		AF23AE4E25B8954E0091B798 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF23AE4F25B8954E0091B798 /* Info.plist */,
+				AF23AE5025B8954E0091B798 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AF23AE5825B8954E0091B798 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF23AE5925B8954E0091B798 /* Tests_iOS.swift */,
+				AF23AE5B25B8954E0091B798 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AF23AE6325B8954E0091B798 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF23AE6425B8954E0091B798 /* Tests_macOS.swift */,
+				AF23AE6625B8954E0091B798 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF23AE4425B8954E0091B798 /* masonislookinggood (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23AE6F25B8954E0091B798 /* Build configuration list for PBXNativeTarget "masonislookinggood (iOS)" */;
+			buildPhases = (
+				AF23AE4125B8954E0091B798 /* Sources */,
+				AF23AE4225B8954E0091B798 /* Frameworks */,
+				AF23AE4325B8954E0091B798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "masonislookinggood (iOS)";
+			productName = "masonislookinggood (iOS)";
+			productReference = AF23AE4525B8954E0091B798 /* masonislookinggood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF23AE4C25B8954E0091B798 /* masonislookinggood (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23AE7225B8954E0091B798 /* Build configuration list for PBXNativeTarget "masonislookinggood (macOS)" */;
+			buildPhases = (
+				AF23AE4925B8954E0091B798 /* Sources */,
+				AF23AE4A25B8954E0091B798 /* Frameworks */,
+				AF23AE4B25B8954E0091B798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "masonislookinggood (macOS)";
+			productName = "masonislookinggood (macOS)";
+			productReference = AF23AE4D25B8954E0091B798 /* masonislookinggood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF23AE5425B8954E0091B798 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23AE7525B8954E0091B798 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AF23AE5125B8954E0091B798 /* Sources */,
+				AF23AE5225B8954E0091B798 /* Frameworks */,
+				AF23AE5325B8954E0091B798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF23AE5725B8954E0091B798 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AF23AE5525B8954E0091B798 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AF23AE5F25B8954E0091B798 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23AE7825B8954E0091B798 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AF23AE5C25B8954E0091B798 /* Sources */,
+				AF23AE5D25B8954E0091B798 /* Frameworks */,
+				AF23AE5E25B8954E0091B798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF23AE6225B8954E0091B798 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AF23AE6025B8954E0091B798 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF23AE3925B8954D0091B798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					AF23AE4425B8954E0091B798 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					AF23AE4C25B8954E0091B798 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					AF23AE5425B8954E0091B798 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AF23AE4425B8954E0091B798;
+					};
+					AF23AE5F25B8954E0091B798 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AF23AE4C25B8954E0091B798;
+					};
+				};
+			};
+			buildConfigurationList = AF23AE3C25B8954D0091B798 /* Build configuration list for PBXProject "masonislookinggood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF23AE3825B8954D0091B798;
+			productRefGroup = AF23AE4625B8954E0091B798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF23AE4425B8954E0091B798 /* masonislookinggood (iOS) */,
+				AF23AE4C25B8954E0091B798 /* masonislookinggood (macOS) */,
+				AF23AE5425B8954E0091B798 /* Tests iOS */,
+				AF23AE5F25B8954E0091B798 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF23AE4325B8954E0091B798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23AE6B25B8954E0091B798 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23AE4B25B8954E0091B798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23AE6C25B8954E0091B798 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23AE5325B8954E0091B798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23AE5E25B8954E0091B798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF23AE4125B8954E0091B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23AE6925B8954E0091B798 /* ContentView.swift in Sources */,
+				AF23AE6725B8954E0091B798 /* masonislookinggoodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23AE4925B8954E0091B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23AE6A25B8954E0091B798 /* ContentView.swift in Sources */,
+				AF23AE6825B8954E0091B798 /* masonislookinggoodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23AE5125B8954E0091B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23AE5A25B8954E0091B798 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23AE5C25B8954E0091B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23AE6525B8954E0091B798 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF23AE5725B8954E0091B798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF23AE4425B8954E0091B798 /* masonislookinggood (iOS) */;
+			targetProxy = AF23AE5625B8954E0091B798 /* PBXContainerItemProxy */;
+		};
+		AF23AE6225B8954E0091B798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF23AE4C25B8954E0091B798 /* masonislookinggood (macOS) */;
+			targetProxy = AF23AE6125B8954E0091B798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF23AE6D25B8954E0091B798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF23AE6E25B8954E0091B798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AF23AE7025B8954E0091B798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam3.masonislookinggood;
+				PRODUCT_NAME = masonislookinggood;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF23AE7125B8954E0091B798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam3.masonislookinggood;
+				PRODUCT_NAME = masonislookinggood;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF23AE7325B8954E0091B798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam3.masonislookinggood;
+				PRODUCT_NAME = masonislookinggood;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF23AE7425B8954E0091B798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam3.masonislookinggood;
+				PRODUCT_NAME = masonislookinggood;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AF23AE7625B8954E0091B798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adam3.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "masonislookinggood (iOS)";
+			};
+			name = Debug;
+		};
+		AF23AE7725B8954E0091B798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adam3.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "masonislookinggood (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF23AE7925B8954E0091B798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adam3.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "masonislookinggood (macOS)";
+			};
+			name = Debug;
+		};
+		AF23AE7A25B8954E0091B798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adam3.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "masonislookinggood (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF23AE3C25B8954D0091B798 /* Build configuration list for PBXProject "masonislookinggood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23AE6D25B8954E0091B798 /* Debug */,
+				AF23AE6E25B8954E0091B798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF23AE6F25B8954E0091B798 /* Build configuration list for PBXNativeTarget "masonislookinggood (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23AE7025B8954E0091B798 /* Debug */,
+				AF23AE7125B8954E0091B798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF23AE7225B8954E0091B798 /* Build configuration list for PBXNativeTarget "masonislookinggood (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23AE7325B8954E0091B798 /* Debug */,
+				AF23AE7425B8954E0091B798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF23AE7525B8954E0091B798 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23AE7625B8954E0091B798 /* Debug */,
+				AF23AE7725B8954E0091B798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF23AE7825B8954E0091B798 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23AE7925B8954E0091B798 /* Debug */,
+				AF23AE7A25B8954E0091B798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF23AE3925B8954D0091B798 /* Project object */;
+}
